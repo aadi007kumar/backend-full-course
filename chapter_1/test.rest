@@ -1,0 +1,19 @@
+### TEST GET / WEBSITE
+GET http://localhost:8383
+
+### TEST GET /dashboard
+GET http://localhost:8383/dashboard
+
+### DATA ENDPOINTß
+GET http://localhost:8383/api/data
+
+### DATA ENDPOINT FOR ADDING NEW DATA
+POST http://localhost:8383/api/data
+Content-Type:application/json
+
+{
+    "name":"james-arthur"
+}
+
+### DELETE DATA
+DELETE http://localhost:8383/api/data
